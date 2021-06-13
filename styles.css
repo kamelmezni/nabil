@@ -1,5 +1,6 @@
 body{
   font-family: Amiri,sans-serif;
+  style="background-color: beige;"
 }
 .container{
 display: flex;
@@ -16,28 +17,28 @@ direction: rtl;
     text-align: center;
 }
 .main{
-    border:2px solid rgb(128, 109, 0);
-    background-color: rgba(12, 57, 100, 0.4);
+    border:2px solid rgb(128, 109, 0.1);
+    background-color: rgba(214, 149, 27, 0.151);
     flex-grow: 1;
     text-align: center;
 
 }
-.header{
-    border: 1px solid rgba(255, 217, 0, 0.301);
-    padding: auto;
-    background-color: rgba(50, 14, 211, 0.274);
-    height: 100px;
-    padding: 10px;
-    text-align: center;
-    font-family: Almarai,sans-serif;
-    font: Almarai;
-}
+
 .img1{
-    width:100%;
+    width:80%;
     height: auto;
+    padding: 10px;
+    
+}
+.img2{
+    width:80%;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
 }
 .title{
     font-size: xx-large;
+    background-color: rgba(111, 214, 27, 0.068);
 }
 ul {
     list-style-type: none;
